@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- run here for perform chain concept-->
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="chain.req1_create"/>
+      <class name="chain.req4_delete"/>
+      <class name="chain.req2_get"/>
+      <class name="chain.req3_update"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
